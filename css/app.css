@@ -44,6 +44,7 @@
 
 .cell.bg-lightblue {
     background-color: lightblue;
+    pointer-events: none;
 }
 
 .button {
@@ -92,12 +93,16 @@
     cursor: pointer;
 }
 
-.bg-red{
+.bg-red {
     background-color: brown;
 }
 
-.score-position{
+.score-position {
     padding-left: 30px;
-    
-    
+
+
+}
+
+.cursore-none{
+    pointer-events: none;
 }
